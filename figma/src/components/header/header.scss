@@ -1,0 +1,24 @@
+.header {
+  color: #000;
+  padding: 15px 0;
+  .logo {
+    a {
+        font-size: 27px;
+        font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 700;
+        
+    }
+  }
+  ul {
+    margin: 0;
+    padding-top: 5px    ;
+  }
+  a {
+    color: #000;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+    transition: .3s ease-in-out;
+  }
+}

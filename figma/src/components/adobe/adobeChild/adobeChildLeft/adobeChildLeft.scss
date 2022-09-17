@@ -1,0 +1,40 @@
+    .adobeChildLeft {
+      .h6Filters {
+        font-size: 15px;
+        color: #888;
+        line-height: 3;
+      }
+      .btnSearch {
+        margin-top: 20px;
+        border: 1px solid #ccc;
+        padding: 5px 0px;
+        width: 100%;
+        .faSearch {
+          margin-bottom: 5px;
+          margin-left: 5px;
+        }
+        input {
+          border: none;
+          padding-left: 8px;
+          outline: none;
+          background: #f0f0f0;
+          width: 90%;
+        }
+      }
+      .check {
+        margin-top: 15px;
+        .checked {
+        line-height: 1.5;
+
+          .checkedBox {
+            margin-right: 8px;
+            margin-bottom: 4px;
+            color: #ccc;
+          }
+          .grCheckboxSelected {
+            background: #fff;
+            color: #52ab84;
+          }
+        }
+      }
+    }

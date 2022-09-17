@@ -1,0 +1,49 @@
+.resourcesInput {
+  display: flex;
+  justify-content: center;
+  .btnSearch {
+    width: 50%;
+    display: flex;
+    border: 2px solid #52AB84;
+    border-radius: 5px;
+    padding: 0 7px;
+    background: #FAFBFA;
+
+    .filterResources {
+      padding: 11.5px 5px;
+    border: none;
+    background: #FAFBFA;
+    outline: none;
+    border-right: 2px solid #52AB84;
+    
+
+    }
+    .filterInput{
+      width: 75%;
+      padding: 10px 5px;
+      border: none;
+      background: #FAFBFA;
+      outline: none;
+      &::placeholder{
+        font-size: 14px;
+        font-weight: 600;
+        color: #90A0B2;
+      }
+
+    }
+    .faSearch{
+      margin-top: 15px;
+      margin-left: 5px;
+    }
+  }
+}
+
+
+
+@media(max-width:768px){
+  .resourcesInput{
+    .btnSearch{
+      width: 80%;
+    }
+  }
+}

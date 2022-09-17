@@ -1,0 +1,55 @@
+.home {
+    .header{
+        background: #FAFBFA;
+        a{
+            &:hover{
+                color: #4ec889;
+            }
+        }
+    }
+  .homeText {
+    text-align: center;
+    width: 50%;
+    margin-top: 5rem;
+  }
+  .homeSearchTxt {
+    text-align: center;
+    margin-top: 2rem;
+
+    .topSearches {
+      background: #eff1f3;
+      padding: 5px 15px 7px;
+      border-radius: 5px;
+      margin-left: 13px;
+      cursor: pointer;
+    }
+  }
+  .homeImg {
+    .numberTxt {
+      span {
+        margin-left: 15px;
+      }
+      .number1 {
+        margin: 0;
+      }
+      .number {
+        border-radius: 50%;
+        background: #52ab84;
+        padding: 8px 15px;
+        font-weight: 700;
+        font-size: 20px;
+        color: white;
+      }
+
+      .faArrowRight {
+        margin-left: 15px;
+        color: #ccc;
+      }
+    }
+  }
+  .img {
+    img {
+      color: white;
+    }
+  }
+}

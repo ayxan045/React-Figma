@@ -1,0 +1,32 @@
+.about {
+  .header {
+    background: #52ab84;
+    padding-bottom: 60px;
+    a {
+      color: #fff;
+    }
+  }
+  .resourcesInput {
+    position: relative;
+    top: -35px;
+    .btnSearch {
+      width: 98%;
+      background: white;
+      .filterResources {
+        border: none;
+        padding: 20px 5px;
+        background: white;
+      }
+      .filterInput {
+        width: 87%;
+        border: none;
+        background: white;
+        padding: 18px 5px;
+      }
+      border: none;
+      .faSearch {
+        margin-top: 25px;
+      }
+    }
+  }
+}

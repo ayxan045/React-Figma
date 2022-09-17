@@ -1,0 +1,62 @@
+.adobeChildRight {
+  margin-left: 10px;
+  h6 {
+    color: #888;
+    span {
+      color: black;
+    }
+  }
+  .adobeCom {
+    margin-top: 30px;
+    border: 1px solid rgba(204, 204, 204, 0.577);
+    padding: 20px;
+    .adobeComTopLeft {
+      .adobeIcon {
+        width: 12%;
+        h5 {
+          font-weight: 700;
+        }
+      }
+    }
+    .adobeComTopRight {
+      .iconA {
+        width: 6%;
+      }
+      .iconAtxt {
+        padding-left: 1rem;
+
+        h6 {
+          color: #52ab84;
+          font-weight: 700;
+          margin: 0;
+        }
+        span {
+          color: #888;
+        }
+      }
+    }
+    .adobeGreen {
+      .adobeGreenH5 {
+        .h5Green {
+          background: #52ab857b;
+        }
+      }
+      .adobeGreenP {
+        .pGreen {
+          background: #52ab8546;
+        }
+      }
+      .buttonBox{
+        button {
+        margin: 10px 10px 10px 0px;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        background: #e5e4e4;
+        color: rgb(107, 107, 107);
+      }
+      }
+      
+    }
+  }
+}

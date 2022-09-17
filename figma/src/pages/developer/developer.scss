@@ -1,0 +1,185 @@
+.developer {
+  position: relative;
+  .header {
+    background: #52ab84;
+    padding-bottom: 80px;
+    a {
+      color: #fff;
+    }
+  }
+  .resourcesInput {
+    .btnSearch {
+      position: relative;
+      width: 50%;
+      height: 60px;
+      display: flex;
+      background: #63b390;
+      border: none;
+      border-radius: 10px;
+      padding-right: 15px;
+      padding-left: 10px;
+      margin-top: -9rem;
+      .filterResources {
+        padding: 15.5px 5px;
+        background: #68b593;
+        border: none;
+        color: white;
+        outline: none;
+      }
+      .filterInput {
+        padding: 14.2px 0;
+        width: 80%;
+        background: #63b390;
+        border: none;
+        outline: none;
+        color: white;
+        padding-left: 15px;
+        &::placeholder {
+          color: rgb(224, 224, 224);
+        }
+      }
+      .faSearch {
+        margin-top: 20px;
+        color: white;
+      }
+    }
+  }
+  .developerBoxes {
+    position: relative;
+    top: -60px;
+    .adobeCom {
+      background: #FAFBFA;
+      border: 1px solid rgba(204, 204, 204, 0.555);
+    }
+    .developerRightBox {
+      margin-top: 30px;
+      background: #FAFBFA;
+      padding: 20px 40px;
+      border: 1px solid rgba(204, 204, 204, 0.555);
+      .buttonBox {
+        button {
+          margin: 10px 10px 10px 0px;
+          padding: 7px 15px;
+          border: none;
+          border-radius: 5px;
+          background: #eff1f3;
+          color: rgb(107, 107, 107);
+        }
+      }
+    }
+    .godaddy {
+      margin-top: 30px;
+      background: #FAFBFA;
+      padding: 20px;
+      border: 1px solid rgba(204, 204, 204, 0.555);
+      margin-left: 10px;
+    }
+    .whoIsBox {
+      margin-top: 30px;
+      background: #FAFBFA;
+      padding: 35px 30px;
+      border: 1px solid rgba(204, 204, 204, 0.555);
+      margin-left: 10px;
+      .after {
+        position: relative;
+        &::after {
+          content: "";
+          position: absolute;
+          background-color: #ccc;
+          height: 2px;
+          width: 110%;
+          top: 30px;
+          left: -40px;
+        }
+      }
+      .domainh6 {
+        color: #52ab84;
+        position: relative;
+
+        &::after {
+          content: "";
+          position: absolute;
+          background-color: #52ab84;
+          height: 2px;
+          width: 85%;
+          top: 30px;
+          left: 0px;
+        }
+      }
+      .divH6 {
+        h6 {
+          line-height: 2;
+          color: #888;
+          font-weight: 400;
+        }
+        .serverH6 {
+          padding-top: 5px;
+        }
+      }
+      .divh6 {
+        font-weight: 500;
+        h6 {
+          line-height: 2;
+          color: rgba(0, 0, 0, 0.688);
+        }
+        span{
+          color: rgba(0, 0, 0, 0.688);
+
+        }
+      }
+    }
+  }
+  .developerBottom{
+    h4{
+      margin-left: 10px;
+      font-weight: 700;
+      margin-top: 25px;
+    }
+  }
+}
+
+  
+
+
+@media (max-width: 992px) {
+  .developer {
+    .resourcesInput {
+      .btnSearch {
+        margin-top: -2rem;
+        width: 70%;
+      }
+    }
+  }
+  .developerBoxes {
+    margin-top: 3rem;
+    .whoIsBox{
+      .after{
+        position: relative;
+        margin-left: 10px;
+        &::after {
+          content: "";
+          position: absolute;
+          background-color: #ccc;
+          height: 2px;
+          width: 90% !important;
+          top: 22px !important;
+          left: 0px !important;
+        }
+      }
+      .domainh6 {
+        color: #52ab84;
+        position: relative;
+
+        &::after {
+          content: "";
+          position: absolute;
+          background-color: #52ab84;
+          height: 2px;
+          width: 90% !important;
+          top: 22px !important;
+          left: 0px;
+        }
+      }
+    }
+  }
+}
